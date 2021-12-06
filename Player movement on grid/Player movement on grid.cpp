@@ -237,6 +237,8 @@ void GamblingState(Game game)
     char input;
     int asciValue;
 
+    srand(time(NULL));
+
     while (understandRules == false)
     {
         understandRules = false;
